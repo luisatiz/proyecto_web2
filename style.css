@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    background: url(img/robot.jpg) no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 500px;
+    background: rgba(190, 10, 25, 0.6);
+    padding: 20px;
+    text-align: center;
+    margin: 40px auto;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+.box-img{
+    border-radius: 50%;
+}
+
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0  20px;
+
+}
+
+.box h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: 0 0 30px 0;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.box ul{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.box ul li{
+    display: inline-block;
+}
+
+.box ul li a{
+    color: white;
+    font-size: 50px;
+    padding: 10px 8px;
+    transition: all .5 ease-in-out;
+    display: block;
+    
+}
+
+.box ul li a :hover{
+    color: rgb(226, 43, 58);
+    transform: scale(1.2);
+     
+}
